@@ -4,6 +4,10 @@
 ## List of commands and what they do?
 Before I tell you the commands, you have to know that this is not only in exprimental stage, but also the fact that I made this NPM-Package for myself, so if you want to use it - that is fine, but the features and command syntax in the CLI will be from what I want them to be - unless there are better commands suggested of course!
 
+## What are the ways I can use it?
+1. Install it using NPM or Yarn (something that uses the NPM package archive)
+2. Download the source code, open a terminal and run `yarn build` or `npm build` (either way, it will build into JS which you can use) -- This way is not reccommended and can be quite hard for beginners.
+
 ### **Command Prefix**
 Currently, the command prefix is `vcli`. Therefore, if you were running the test command - you would write `vcli test`.
 
