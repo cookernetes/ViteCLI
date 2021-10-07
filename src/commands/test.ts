@@ -1,7 +1,6 @@
-import chalk from 'chalk';
-
 import type { Arguments, CommandBuilder } from 'yargs';
 import * as logos from '../logos';
+import chalk from 'chalk';
 
 type Options = {
 };
