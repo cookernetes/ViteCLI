@@ -21,3 +21,7 @@ export const logo3 = String.raw`
    |||     ||   ||   ||      '|.      .  ||        ||  
     |     .||.  '|.'  '|...'  ''|....'  .||.....| .||. 
 `;
+
+export const logoArr = [logo1, logo2, logo3];
+
+export const msg = "A Next.JS influenced, slightly opinionated file structure/component generator for Vite-ReactTS apps.";
