@@ -1,11 +1,8 @@
 {
-  "name": "yargstesting",
-  "version": "2.0.0",
-  "description": "",
+  "name": "@psuedodoro/vitecli",
+  "version": "1.6.0",
+  "description": "An opinionated NG cli alternative for making apps with ViteJS - containing the file structure influenced by Angular/NG-CLI, but improved for ViteJS and ReactJS as a whole by me (Psuedodoro)",
   "main": "index.js",
-  "bin": {
-    "hello": "./build/cli.js"
-  },
   "scripts": {
     "build": "tsc",
     "package": "pkg . --targets node16-win-x64 --output hello"
@@ -13,10 +10,24 @@
   "pkg": {
     "scripts": "build/**/*.js"
   },
-  "keywords": [],
+  "bin": {
+    "vcli": "./build/cli.js"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "vitejs",
+    "typescript",
+    "ng",
+    "cli",
+    "vitets",
+    "reactts",
+    "typescript"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/inquirer": "^8.1.3",
     "@types/node": "^16.10.3",
     "@types/yargs": "^17.0.3",
     "chalk": "^4.1.2",
@@ -27,6 +38,7 @@
     "typescript": "^4.4.3"
   },
   "dependencies": {
+    "inquirer": "^8.2.0",
     "yargs": "^17.2.1"
   }
 }

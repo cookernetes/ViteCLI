@@ -24,6 +24,8 @@ export const handler = (argv: Arguments<Options>): void => {
     const fLCapitcal = componentName.charAt(0).toUpperCase() + componentName.slice(1)
     if (fs.existsSync(`./src/components/${fLCapitcal}`)) {
         console.log(chalk.red(`${logos.prefix} The component with the name '${name}' already exists.`));
+    } else if (name === '') {
+        console.log(chalk.red(`${logos.prefix} You need to specify a name for the page component. (--name=compName)`));
     } else {
         const msg = chalk.green(`${logos.prefix} The component with the name '${name}' has successfully been created in: `);
         console.time(msg)
