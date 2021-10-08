@@ -4,7 +4,7 @@ import chalk from 'chalk';
 
 
 export const command: string[] = ['test', 't'];
-export const desc: string = 'Tests to see if the package is working. If it is, you will get a random, but nice text-art of the name of the project :)';
+export const desc: string = 'Test command to see if the package is working. No args.';
 
 const logoIndex = Math.floor(Math.random() * 3);
 

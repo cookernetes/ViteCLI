@@ -5,7 +5,7 @@ import fs from 'fs';
 
 
 export const command: string[] = ['init', 'i'];
-export const desc: string = 'This outlines the folder structure for your project. E.g, in the src directory - it will add a pages folder, a components folder, and styling folder to get you started.';
+export const desc: string = 'Creates the basic file structure for the project. No args.';
 
 const isProject = () : boolean => {
     // Checks if the src folder is in the current working directory with fs
