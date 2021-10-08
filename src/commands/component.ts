@@ -25,7 +25,7 @@ export const handler = (argv: Arguments<Options>): void => {
     if (fs.existsSync(`./src/components/${fLCapitcal}`)) {
         console.log(chalk.red(`${logos.prefix} The component with the name '${name}' already exists.`));
     } else {
-        const msg = chalk.red(`${logos.prefix} The component with the name '${name}' has successfully been created in: `);
+        const msg = chalk.green(`${logos.prefix} The component with the name '${name}' has successfully been created in: `);
         console.time(msg)
         fs.mkdirSync(`./src/components/${fLCapitcal}`);
         fs.writeFileSync(`./src/components/${fLCapitcal}/${fLCapitcal}.component.tsx`, `import React from 'react';\n\n// Styling imports \nimport './${fLCapitcal}.styles.scss';`);
