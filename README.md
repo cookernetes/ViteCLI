@@ -1,5 +1,13 @@
 # ViteCLI
-> An NG cli alternative for making apps with ViteJS - containing the file structure influenced by Angular/NG-CLI, but improved for ViteJS and ReactJS as a whole by me (Psuedodoro)
+<div align="center">
+  <img height=300 src="https://i.ibb.co/ysyMC0G/Vite-CLI-Banner.png">
+</div>
+
+An NG cli alternative for making apps with ViteJS - containing the file structure influenced by Angular/NG-CLI, but improved for ViteJS and ReactJS as a whole by me (Psuedodoro)
+
+![license](https://img.shields.io/github/license/psuedodoro/ViteCLI.svg) ![npm (scoped)](https://img.shields.io/npm/v/@psuedodoro/vitecli)
+
+![tslogo](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## What are the ways I can use it?
 1. Install it using NPM or Yarn (something that uses the NPM package archive)
