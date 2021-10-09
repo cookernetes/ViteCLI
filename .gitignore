@@ -9,3 +9,6 @@ yarn*
 test*
 
 *.psd
+
+*jest
+jest*
