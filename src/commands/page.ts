@@ -23,6 +23,7 @@ export const handler = (argv: Arguments<Options>): void => {
     const { name } = argv;
     const componentName = name ? name : '';
     const fLCapitcal = componentName.charAt(0).toUpperCase() + componentName.slice(1)
+
     if (!isProject()) {
         console.log(chalk.red(`${logos.prefix} Sorry but please run this command in the root directory of your Vite-ReactTS project.`));
         return;
@@ -32,7 +33,7 @@ export const handler = (argv: Arguments<Options>): void => {
         console.log(chalk.red(`${logos.prefix} You need to specify a name for the page component. (--name=compName)`));
         return;
     } else if (fs.existsSync(`./src/pages/${componentName}/`)) {
-        console.log(chalk.red(`${logos.prefix} Sorry but a pagecomponent with the name ${componentName} already exists.`));
+        console.log(chalk.red(`${logos.prefix} Sorry but a page component with the name ${componentName} already exists.`));
         return;
     } else {
         const msg = chalk.green(`${logos.prefix} The page component with the name '${name}' has successfully been created in: `);

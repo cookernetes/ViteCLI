@@ -15,5 +15,4 @@ export const handler = (): void => {
 	console.log(chalk.red.bold(rightLogo));
 	console.log(chalk.green(`\n${logos.msg}`));
 	console.log(chalk.blue(`\nLuckily for you, the module is working! Enjoy it while it lasts ;)\n`));
-	var myInt = setTimeout(() => {},1500); 
 };
