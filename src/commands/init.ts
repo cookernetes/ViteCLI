@@ -7,12 +7,12 @@ import fs from 'fs';
 export const command: string[] = ['init', 'i'];
 export const desc: string = 'Creates the basic file structure for the project. No args.';
 
-const isProject = () : boolean => {
+export const isProject = () : boolean => {
     // Checks if the src folder is in the current working directory with fs
     return fs.existsSync("./src");
 };
 
-const initCheck = (): boolean => {
+export const initCheck = (): boolean => {
     if (fs.existsSync("./src/pages") || fs.existsSync("./src/scripting") || fs.existsSync("./src/components") || fs.existsSync("./src/styling") || fs.existsSync("./src/assets")) {
         return true;
     } else {
