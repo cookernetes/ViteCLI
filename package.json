@@ -1,6 +1,6 @@
 {
   "name": "@psuedodoro/vitecli",
-  "version": "1.7.2",
+  "version": "0.7.3",
   "description": "An opinionated NG cli alternative for making apps with ViteJS - containing the file structure influenced by Angular/NG-CLI, but improved for ViteJS and ReactJS as a whole by me (Psuedodoro)",
   "main": "index.js",
   "scripts": {
